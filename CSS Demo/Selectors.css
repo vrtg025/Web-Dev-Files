@@ -1,0 +1,29 @@
+/*Star Selector*/
+*
+{
+	border: 1px solid black;
+}
+/*Decendant Selector*/
+li a
+{
+	color: darkgreen;
+}
+/*Adjacent Selector*/
+h3 + ul
+{
+	border: 4px solid cyan;
+}
+/*Attribute Selector*/
+a[href="http://www.google.com"]
+{
+	background-color: gold;
+}
+/*nth of type*/
+ul:nth-of-type(3)
+{
+	background-color: #E5EAEE
+}
+li:nth-of-type(even)
+{
+	background-color: #A5AAAE
+}

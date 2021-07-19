@@ -1,0 +1,21 @@
+#paragraph1
+{
+	/*Content - Width & Height*/
+	width: 8.5%;
+	/*Border*/
+	border: 2px solid cyan;
+	/*Padding*/
+	padding: 10px;
+	/*Margin*/
+	margin: 20px auto 0 auto;
+}
+#paragraph2
+{
+	/*Content - Width & Height*/
+	width: 150px;
+	/*Border*/
+	border: 2px solid cyan;
+	/*Padding*/
+	/*Margin*/
+	margin: 20px auto;
+}

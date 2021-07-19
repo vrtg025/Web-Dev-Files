@@ -1,0 +1,27 @@
+h1
+{
+	color: #12af34;
+}
+h3
+{
+	background: cyan;
+	border: 1px solid cyan;
+}
+li
+{
+	color: rgb(74,192,98);
+}
+body
+{
+	background: pink;
+	/*background-size: cover;
+	background-repeat: no-repeat;*/
+}
+#programming
+{
+	border: 1px solid gray;
+}
+.multi
+{
+	text-decoration: line-through;
+}

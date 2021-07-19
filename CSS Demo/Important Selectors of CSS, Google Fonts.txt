@@ -1,0 +1,11 @@
+Element
+ID (#)
+Class (.)
+Star
+Decendant Selector
+Adjacent Selector
+Attribute Selector
+nth of type
+
+
+fonts.google.com

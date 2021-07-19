@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+<h1>Register</h1>
+<form action="" method="get">
+	<label>
+		First name:
+		<input type="text" name="firstName" placeholder="First name" required="true">
+	</label>
+	<label>
+		Last name:
+		<input type="text" name="lastName" placeholder="Last name" required="true">
+	</label>
+	<br>
+	<label>
+		Username:
+		<input type="email" name="email" placeholder="email" required="true">
+	</label>
+	<label>
+		Password:
+		<input type="password" placeholder="Password" pattern=".{5,10}" title="5 to 10 characters" required="true">
+	</label>
+	<br>
+	<label>
+		Male:
+		<input type="radio" name="gender" value="male">
+	</label>
+	<label>
+		Female:
+		<input type="radio" name="gender" value="female">
+	</label>
+	<label>
+		Other:
+		<input type="radio" name="gender" value="other">
+	</label>
+	<br>
+	<p>Birth year</p>
+	<select name="birthYear">
+		<option value="after_2000">>2000</option>
+		<option value="2000">2000</option>
+		<option value="before_2000"><2000</option>
+	</select>
+	<br>
+	<textarea name="bio" rows="10" cols="50"></textarea>
+	<br>
+	<label>
+		Agree to terms and conditions:
+		<input type="checkbox" required="true">
+	</label>
+	<br>
+	<input type="submit">
+</form>
+
+</body>
+</html>
